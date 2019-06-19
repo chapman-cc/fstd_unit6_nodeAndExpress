@@ -27,10 +27,22 @@ app.get("/about", (req, res) => {
 
 // TODO: project or projects, need to be dynamic
 app.get("/project/:id", (req, res) => {
-    res.render("project")
+
+app.use((req, res, next) => {
+    const err = new Error("Look elsewhere, there's nothing here");
+    err.status = 404;
+    next(err);
 });
 
-// TODO: HANDLE ERROR 404
+// ================================
+// *       ERROR HANDLER
+// ================================
+
+app.use((err, req, res, next) => {
+    res.status(err.status);
+    res.render("error", err);
+    next();
+});
 // ================================
 // *            START
 // ================================
