@@ -4,7 +4,7 @@
             "id": 1,
             "project_name": "Quote Generator",
             "description": "This is a simple quote generator, my first proejct in Treehouse FSTD, the background color changes overtime too",
-            "technologies ": ["HTML", "Javascript"],
+            "technologies": ["HTML", "Javascript"],
             "live_link": "https://chapweb.github.io/fstd_unit1_quoteGenerator/",
             "github_link": "https://github.com/chapweb/fstd_unit1_quoteGenerator",
             "image_urls ": []
@@ -13,7 +13,7 @@
             "id": 2,
             "project_name": "Javascript Pagination",
             "description": "This project filter list of profile on html and create pagination via Javascript ",
-            "technologies ": ["HTML", "Javascript"],
+            "technologies": ["HTML", "Javascript"],
             "live_link": "https://chapweb.github.io/fstd_unit2_listPagination/",
             "github_link": "https://github.com/chapweb/fstd_unit2_listPagination",
             "image_urls ": []
@@ -22,7 +22,7 @@
             "id": 3,
             "project_name": "jQuery Interactive Form",
             "description": "This project use JavaScript to enhance an interactive registration form with Regex",
-            "technologies ": ["HTML", "Javascript", "Regex"],
+            "technologies": ["HTML", "Javascript", "Regex"],
             "live_link": "https://chapweb.github.io/fstd_unit3_interactiveForm/",
             "github_link": "https://github.com/chapweb/fstd_unit3_interactiveForm",
             "image_urls ": []
@@ -31,7 +31,7 @@
             "id": 4,
             "project_name": "Javascript Hangman with OOP",
             "description": "This is a hangman game built with OOP Javascript",
-            "technologies ": ["HTML", "Javascript", "OOP"],
+            "technologies": ["HTML", "Javascript", "OOP"],
             "live_link": "https://chapweb.github.io/fstd_unit4_oopHangman/",
             "github_link": "https://github.com/chapweb/fstd_unit4_oopHangman",
             "image_urls ": []
@@ -40,7 +40,7 @@
             "id": 5,
             "project_name": "Javascript Fetch API",
             "description": "This project fetches an API via fetch() or XMLHttpRequest to generate a employee modal view pane",
-            "technologies ": ["HTML", "Javascript"],
+            "technologies": ["HTML", "Javascript"],
             "live_link": "https://chapweb.github.io/fstd_unit5_fetchAPI/",
             "github_link": "https://github.com/chapweb/fstd_unit5_fetchAPI",
             "image_urls ": []
