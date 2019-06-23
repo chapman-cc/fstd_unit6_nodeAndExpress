@@ -5,7 +5,7 @@
 const express = require("express");
 const app = express();
 
-const data = require("./data.json");
+const { projects } = require("./data.json");
 
 // ================================
 // *          MIDDLEWARE
