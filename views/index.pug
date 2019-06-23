@@ -21,8 +21,9 @@ block content
 
 		each pjt, index in projects
 			.cell
-				a(href=`/project/${index}/`)
+				a(href=`/project/${index}`)
 					img.thumbnail(src=`${pjt.image_urls}`)
 					h5= pjt.project_name
+
 
       
