@@ -25,8 +25,9 @@ app.get("/about", (req, res) => {
     res.render("about");
 });
 
-// TODO: project or projects, need to be dynamic
 app.get("/project/:id", (req, res) => {
+    const id = req.params.id;
+    res.locals.project = projects[id];
     res.render("project");
 });
 
