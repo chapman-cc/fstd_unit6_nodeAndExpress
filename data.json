@@ -7,7 +7,14 @@
             "technologies": ["HTML", "Javascript"],
             "live_link": "https://chapweb.github.io/fstd_unit1_quoteGenerator/",
             "github_link": "https://github.com/chapweb/fstd_unit1_quoteGenerator",
-            "image_urls ": []
+            "image_urls ": {
+                "thumbnail": "static/img/quote-generator/thumbnail.png",
+                "screenshot": [
+                    "/static/img/quote-generator/screen1.png",
+                    "/static/img/quote-generator/screen2.png",
+                    "/static/img/quote-generator/screen3.png"
+                ]
+            }
         },
         {
             "id": 2,
@@ -16,7 +23,14 @@
             "technologies": ["HTML", "Javascript"],
             "live_link": "https://chapweb.github.io/fstd_unit2_listPagination/",
             "github_link": "https://github.com/chapweb/fstd_unit2_listPagination",
-            "image_urls ": []
+            "image_urls ": {
+                "thumbnail": "static/img/pagination/thumbnail.png",
+                "screenshot": [
+                    "/static/img/pagination/screen1.png",
+                    "/static/img/pagination/screen2.png",
+                    "/static/img/pagination/screen3.png"
+                ]
+            }
         },
         {
             "id": 3,
@@ -25,7 +39,14 @@
             "technologies": ["HTML", "Javascript", "Regex"],
             "live_link": "https://chapweb.github.io/fstd_unit3_interactiveForm/",
             "github_link": "https://github.com/chapweb/fstd_unit3_interactiveForm",
-            "image_urls ": []
+            "image_urls ": {
+                "thumbnail": "static/img/interactive-form/thumbnail.png",
+                "screenshot": [
+                    "/static/img/interactive-form/screen1.png",
+                    "/static/img/interactive-form/screen2.png",
+                    "/static/img/interactive-form/screen3.png"
+                ]
+            }
         },
         {
             "id": 4,
@@ -34,7 +55,14 @@
             "technologies": ["HTML", "Javascript", "OOP"],
             "live_link": "https://chapweb.github.io/fstd_unit4_oopHangman/",
             "github_link": "https://github.com/chapweb/fstd_unit4_oopHangman",
-            "image_urls ": []
+            "image_urls ": {
+                "thumbnail": "static/img/hangman/thumbnail.png",
+                "screenshot": [
+                    "/static/img/hangman/screen1.png",
+                    "/static/img/hangman/screen2.png",
+                    "/static/img/hangman/screen3.png"
+                ]
+            }
         },
         {
             "id": 5,
@@ -43,7 +71,14 @@
             "technologies": ["HTML", "Javascript"],
             "live_link": "https://chapweb.github.io/fstd_unit5_fetchAPI/",
             "github_link": "https://github.com/chapweb/fstd_unit5_fetchAPI",
-            "image_urls ": []
+            "image_urls ": {
+                "thumbnail": "static/img/fetch-api/thumbnail.png",
+                "screenshot": [
+                    "/static/img/fetch-api/screen1.png",
+                    "/static/img/fetch-api/screen2.png",
+                    "/static/img/fetch-api/screen3.png"
+                ]
+            }
         }
     ]
 }
