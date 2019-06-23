@@ -19,7 +19,7 @@ app.set("view engine", "pug");
 // ================================
 
 app.get("/", (req, res) => {
-    res.render("index");
+    res.render("index", { projects: projects });
 });
 app.get("/about", (req, res) => {
     res.render("about");
