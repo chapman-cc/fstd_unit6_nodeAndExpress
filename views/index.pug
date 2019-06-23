@@ -19,10 +19,10 @@ block content
 		
 		//- Here's what the Pug for each project example should look like. 
 
-		each pjt in projects
+		each pjt, index in projects
 			.cell
-				a(href=`${pjt.live_link}`)
-				img.thumbnail(src=`${pjt.image_urls}`)
-				h5= pjt.project_name
+				a(href=`/project/${index}/`)
+					img.thumbnail(src=`${pjt.image_urls}`)
+					h5= pjt.project_name
 
       
