@@ -30,13 +30,14 @@ app.get("/project", (req, res) => {
 });
 app.get("/project/:id", (req, res, next) => {
     const id = req.params.id;
-    if (id < 0 && id > 4) {
+    if (id >= 0 && id <= 4) {
+        res.locals.project = projects[id];
+        res.render("project");
+    } else {
         const err = new Error("I don't have that much projects yet...");
         err.status = 404;
         next(err);
     }
-    res.locals.project = projects[id];
-    res.render("project");
 });
 
 app.use((req, res, next) => {
