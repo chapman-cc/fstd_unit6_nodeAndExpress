@@ -25,8 +25,16 @@ app.get("/about", (req, res) => {
     res.render("about");
 });
 
-app.get("/project/:id", (req, res) => {
+app.get("/project", (req, res) => {
+    res.redirect("/");
+});
+app.get("/project/:id", (req, res, next) => {
     const id = req.params.id;
+    if (id > 4) {
+        const err = new Error("I don't have that much projects yet...");
+        err.status = 404;
+        next(err);
+    }
     res.locals.project = projects[id];
     res.render("project");
 });
