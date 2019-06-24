@@ -126,8 +126,6 @@ a:hover {
 
 .portfolio-index .cell {
     margin-bottom: 15px;
-    display: inline-block;
-    width: 50%;
 }
 
 .portfolio-index .cell h5 {
