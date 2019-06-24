@@ -1,0 +1,8 @@
+extends layout.pug
+
+block content 
+	article.grid-container.portfolio-intro
+		div
+		h1 #{err.message}
+		p.lead.text-light #{err.status} means the url is not correct, try another one 
+		p.text-light #{err.stack}
