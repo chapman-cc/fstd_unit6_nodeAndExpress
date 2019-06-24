@@ -18,8 +18,8 @@ block content
           each tech in project.technologies
             li #{tech}
 
-        a.button.expanded(href=`${project.live_link}`) Live Demo
-        a.button.expanded(href=`${project.github_link}`) GitHub Repo
+        a.button.expanded(href=`${project.live_link}` target="blank") Live Demo
+        a.button.expanded(href=`${project.github_link}` target="blank") GitHub Repo
 
     each scrnshot in project.image_urls.screenshots
       img.image(src=`${scrnshot}`)
